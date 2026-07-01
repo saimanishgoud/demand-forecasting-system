@@ -1,33 +1,50 @@
+# =====================
 # Python
+# =====================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Virtual environment
+# Virtual environments
 venv/
 env/
+.venv/
 Lib/
 Scripts/
-sales/Lib/
-sales/Scripts/
 
+# =====================
+# ML / Data files
+# =====================
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Models (VERY IMPORTANT)
+*.pkl
+*.joblib
+models/
+notebooks/*.pkl
+
+# =====================
 # Jupyter
+# =====================
 .ipynb_checkpoints/
 
-# Docker
+# =====================
+# Logs
+# =====================
 *.log
 
-# OS
+# =====================
+# OS files
+# =====================
 .DS_Store
+Thumbs.db
 
-# datasets (recommended)
-data/raw/
-data/processed/
-
-# notebooks (optional)
-notebooks/*.ipynb
-
-# system
-__pycache__/
-*.pyc
-venv/
-Lib/
+# =====================
+# Docker
+# =====================
+*.tar
+*.gz
