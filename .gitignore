@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+Lib/
+Scripts/
+sales/Lib/
+sales/Scripts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+
+# datasets (recommended)
+data/raw/
+data/processed/
+
+# notebooks (optional)
+notebooks/*.ipynb
+
+# system
+__pycache__/
+*.pyc
+venv/
+Lib/
